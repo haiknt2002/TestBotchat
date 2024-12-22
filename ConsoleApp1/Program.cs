@@ -16,7 +16,7 @@ class Program
         {
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
-            string prompt = "cách in HelloWorld ra console C++, trả lời ngắn gọn";
+            string prompt = "thời tiết hôm nay tại hà nội";
             var requestData = new
             {
                 model = "command-xlarge-nightly",
